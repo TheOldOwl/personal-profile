@@ -1,0 +1,48 @@
+/* Universal style */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Left side container */
+
+.frame-container{
+	width: 900px;
+	height: 900px;
+	margin: 30px auto;
+}
+
+.left-container{
+	border: 1px solid black;
+	width: 30%;
+	height: 100%;
+}
+
+.right-container{
+	border: 1px solid black;
+	margin-left: 30%;
+	width: 70%;
+	height: 100%;
+	position: relative;
+	bottom: 100%;
+}
+
+.header{
+	border: 1px solid black;
+	display: inline-block;
+	width: 100%;
+}
+
+.header h1{
+	background-color: #000;
+	color: #FFF;
+	line-height: 1.5em;
+	width: 70%;
+}
+
+.icon{
+	width: 1.5em;
+}
