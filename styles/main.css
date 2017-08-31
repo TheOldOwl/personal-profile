@@ -1,0 +1,118 @@
+/* Universal style*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  order: 1px solid black;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Main page style*/
+
+.main-container {
+  background-image: url(D:/WebDesign/SublimeProject/PersonalPage/images/stainless-steel.jpg);
+  background-size: cover;
+  /*background-color: #212e38;*/
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.sm {
+  width: 100%;
+}
+
+#name {
+  color: #000;
+  text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.7);
+  font-size: 60px;
+  font-family: Helvetica;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  padding-bottom: 0.5em;
+}
+
+.sm a {
+  text-decoration: none;
+  color: #000;
+  font-size: 3em;
+}
+
+.fa {
+  text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.7);
+  margin: 0 5px;
+}
+
+.toggle {
+  color: #4c4c4c;
+}
+
+
+/* Secondary pages - link & image*/
+
+.second-container{
+  display: block;
+  background-image: url(D:/WebDesign/SublimeProject/PersonalPage/images/cv1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 50vh;
+  position: relative;
+  left: 70%;
+  bottom: 100vh;
+}
+
+.second-container:hover {
+  background-image: url('https://goo.gl/skGjnJ');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.third-container {
+  display: block;
+  background-image: url('https://goo.gl/DNJNQw');
+  background-size: contain;
+  background-position: center;
+  width: 30%;
+  height: 25vh;
+  position: relative;
+  left: 70%;
+  bottom: 100vh;
+}
+
+.third-container:hover {
+  background-image: url('https://goo.gl/SKGSXa');
+  background-size: cover;
+  background-position: center;
+}
+
+.fourth-container {
+  display: block;
+  background-image: url('https://goo.gl/P235uQ');
+  background-size: cover;
+  width: 15%;
+  height: 25vh;
+  position: relative;
+  left: 70%;
+  bottom: 100vh;
+}
+
+.fifth-container {
+  display: block;
+  background-image: url('https://goo.gl/P235uQ');
+  background-size: cover;
+  width: 15%;
+  height: 25vh;
+  position: relative;
+  left: 85%;
+  bottom: 125vh;
+}

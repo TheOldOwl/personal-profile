@@ -1,0 +1,25 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "wsrv -d ./ -p 3000 -l -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOldOwl/TestProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOldOwl/TestProject/issues"
+  },
+  "homepage": "https://github.com/TheOldOwl/TestProject#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "wsrv": "^0.1.7"
+  }
+}
