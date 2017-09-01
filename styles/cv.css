@@ -1,47 +1,48 @@
 /* Universal style */
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
 
-/* Personal data tab */
+/* Main container */
 
-.frame-container{
+.frame-container {
 	width: 900px;
 	height: 900px;
 	margin: 30px auto;
 }
 
-.personal-data{
+/* Left side container */
+
+.personal-data {
 	border: 1px solid black;
 	background-color: #e3be42;
 	width: 30%;
 	height: 100%;
 }
 
-.profile-picture{
-	border: 1px solid #FFF;
+.profile-picture {
 	background-color: #FFF;
 	border-radius: 50%;
-	width: 50%;
+	width: 60%;
 	margin: 20% auto;
 	margin-bottom: 20px;
 }
 
-.profile-picture img{
+.profile-picture img {
 	width: 100%;
 }
 
-#name{
+#name {
 	text-align: center;
 	font-family: Helvetica, sans-serif;
 	margin-bottom: 10px;
 }
 
-#job-title{
+#job-title {
 	background-color: #000;
 	color: #FFF;
 	text-align: center;
@@ -58,61 +59,59 @@
 	letter-spacing: 0.1em;
 }
 
-.holder{
-	width: 100%;
+/* Contact list */
+
+.contact-list li {
+	display: inline-block;
+	margin-bottom: 1em;
+	list-style-type: none;
 }
 
-.holder > p {
+.contact-list p {
 	font-family: Helvetica, sans-serif;
-	padding-left: 5px;
 	font-size: 14px;
 }
 
-.social-media{
+.c-font-awsm {
 	width: 30%;
 	padding-right: 10px;
+	margin-right: 10px;
 	text-align: right;
 	background-color: #000;
 	color: #FFF;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-}
-
-.holder >.fa{
-	font-size: 1em;
-	/*font-weight: 600;*/
 	line-height: 1.5em;
 }
 
-.hobbies-data{
+/* Hobbies list */
+
+.hobbies-list li {
 	list-style-type: none;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	font-family: Helvetica, sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5%;
 }
 
-.hobbies-data .fa {
-	border: 1px solid red;
-	padding: 10px;
+.h-font-awsm {
 	font-size: 2em;
 	color: #FFF;
 	background-color: #000;
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	line-height: 1.5em;
+	margin-bottom: 10%;
 }
 
-.hobbies-data li{
-	font-size: 14px;
-	padding-left: 10px;
-	padding-bottom: 30px;
-}
-
-#right-side {
-	padding-left: 30px;
+.hobbies-list p {
+	line-height: 3em;
+	font-family: Helvetica, sans-serif;
 }
 
 /* Right container content*/
 
-.right-container{
+.right-container {
 	border: 1px solid black;
 	margin-left: 30%;
 	width: 70%;
@@ -123,28 +122,28 @@
 
 /* Profile bar */
 
-.holder{
+.holder {
 	width: 100%;
 	height: 5%;
 	margin-top: 5%;
 }
 
-.holder >*{
+.holder >* {
 	display: inline-block;
 }
 
-.icon{
+.icon {
 	height:100%;
 	width:20%;
 	padding-left: 5%;
 }
 
-.icon .fa{
+.icon .fa {
 	font-size: 3em;
 	color: #e3be42;
 }
 
-.head-text{
+.head-text {
 	background-color: #000;
 	color: #FFF;
 	font-family: Helvetica, sans-serif;
@@ -154,13 +153,13 @@
 	text-align: left;
 	vertical-align: top;
 	line-height: 3em;
+	border-top-left-radius: 10px;
 }
 
 
 /* profile text */
 
-.text-holder{
-	border: 1px solid red;
+.text-holder {
 	text-align: justify;
 	padding: 15px 10px 0 5%;
 }
