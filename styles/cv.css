@@ -181,3 +181,74 @@
 }
 
 /* Percentage circles */
+
+.p-circle {
+	font-size: 20px;
+	margin: 20px;
+	position: relative;
+	padding: 0;
+	width: 5em;
+	height: 5em;
+	background-color: #cccccc;
+	border-radius: 50%;
+	line-height: 5em;
+}
+
+.p-circle:after {
+	border: none;
+	position: absolute;
+	top: 0.35em;
+	left: 0.35em;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	width: 4.3em;
+	height: 4.3em;
+	background-color: red;
+	content: " ";
+}
+
+.p-circle span {
+	position: absolute;
+	line-height: 5em;
+	width: 5em;
+	text-align: center;
+	display: block;
+	color: #53777a;
+	z-index: 2;
+}
+
+.slice {
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+	position: absolute;
+	clip: rect(0, 5em, 5em, 2.5em);
+}
+
+.p-circle.over50 .slice {
+	clip: rect(auto, auto, auto, auto);
+}
+
+.value-bar {
+	position: absolute;
+	clip: rect(0, 2.5em, 5em, 0);
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+	border: 0.45em solid #53777a;
+	box-sizing: border-box;
+}
+
+.p-circle.over50 .first50-bar {
+	position: absolute;
+	clip: rect(0, 5em, 5em, 2.5em);
+	background-color: #53777a;
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+}
+
+.p-circle.p60 .value-bar {
+	transform: rotate(216deg);
+}
