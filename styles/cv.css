@@ -180,10 +180,4 @@
 	list-style-type: none;
 }
 
-#test {
-	display: inline;
-	border: 1px solid;
-	border-color: red black black black;
-	border-radius: 50%;
-	padding: 30px 20px;
-}
+/* Percentage circles */
