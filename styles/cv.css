@@ -193,6 +193,7 @@
 	background-color: #eeeeee;
 	border-radius: 50%;
 	line-height: 5em;
+	margin-left: 70px;
 }
 
 .p-circle:after {
@@ -266,12 +267,12 @@
 
 .c-container {
 	display: inline-block;
-	margin-left: 96.6px;
 	font-family: Helvetica, sans-serif;
 }
 
 .c-container p {
 	display: inline-block;
+	width: 109px;
 }
 
 #c-title {
