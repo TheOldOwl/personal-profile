@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  order: 1px solid black;
 }
 
 body {
@@ -31,7 +30,7 @@ body {
 }
 
 #name {
-  color: #232b2b;
+  color: #000;
   text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.7);
   font-size: 60px;
   font-family: Helvetica;
@@ -42,7 +41,7 @@ body {
 
 .sm a {
   text-decoration: none;
-  color: #232b2b;
+  color: #000;
   font-size: 3em;
 }
 
@@ -63,7 +62,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
-  background-image: url(../images/mono.png);
+  background-image: url(../images/mono-cv.png);
   width: 30%;
   height: 50vh;
   position: relative;
@@ -72,7 +71,7 @@ body {
 }
 
 .second-container:hover {
-  background-image: url(../images/color.png);
+  background-image: url(../images/color-cv.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -84,9 +83,9 @@ body {
   background-image: url(../images/portfolio-white.png);
   background-size: contain;
   background-repeat: no-repeat; 
-  background-color: #232b2b;
+  background-color: #000;
   background-position: center;
-  border-top: 0.5px solid #FFF;
+  border-top: 0.5px solid #232b2b;
   width: 30%;
   height: 25vh;
   position: relative;
@@ -96,7 +95,7 @@ body {
 
 .third-container:hover {
   background-image: url(../images/portfolio.png);
-  background-color: #FFF;
+  background-color: #E9E9E9;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -111,12 +110,12 @@ body {
   left: 70%;
   bottom: 100vh;
   text-decoration: none;
-  border-top: 0.5px solid #FFF;
-  border-right: 0.5px solid #FFF;
+  border-top: 0.5px solid #232b2b;
+  border-right: 0.5px solid #232b2b;
 }
 
 .wprogress {
-  background-color: #232b2b;
+  background-color: #000;
   text-align: center;
   color: #FFF;
   line-height: 25vh;
@@ -132,10 +131,10 @@ body {
   left: 85%;
   bottom: 125vh;
   text-decoration: none;
-  border-top: 0.5px solid #FFF;
+  border-top: 0.5px solid #232b2b;
 }
 
 .wprogress:hover {
-  background-color: #FFF;
-  color: #232b2b;
+  background-color: #E9E9E9;
+  color: #000;
 }
