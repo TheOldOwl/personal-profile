@@ -31,7 +31,7 @@ body {
 }
 
 #name {
-  color: #000;
+  color: #232b2b;
   text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.7);
   font-size: 60px;
   font-family: Helvetica;
@@ -42,7 +42,7 @@ body {
 
 .sm a {
   text-decoration: none;
-  color: #000;
+  color: #232b2b;
   font-size: 3em;
 }
 
@@ -60,7 +60,6 @@ body {
 
 .second-container{
   display: block;
-  background-color: #FFF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
@@ -85,7 +84,7 @@ body {
   background-image: url(../images/portfolio-white.png);
   background-size: contain;
   background-repeat: no-repeat; 
-  background-color: #000;
+  background-color: #232b2b;
   background-position: center;
   border-top: 0.5px solid #FFF;
   width: 30%;
@@ -117,7 +116,7 @@ body {
 }
 
 .wprogress {
-  background-color: #000;
+  background-color: #232b2b;
   text-align: center;
   color: #FFF;
   line-height: 25vh;
@@ -138,5 +137,5 @@ body {
 
 .wprogress:hover {
   background-color: #FFF;
-  color: #000;
+  color: #232b2b;
 }
