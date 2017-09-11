@@ -82,9 +82,12 @@ body {
 
 .third-container {
   display: block;
-  background-image: url('https://goo.gl/DNJNQw');
-  background-size: cover;
+  background-image: url(../images/portfolio-white.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-color: #000;
   background-position: center;
+  border-top: 2px solid #FFF;
   width: 30%;
   height: 25vh;
   position: relative;
@@ -93,8 +96,10 @@ body {
 }
 
 .third-container:hover {
-  background-image: url('https://goo.gl/SKGSXa');
-  background-size: cover;
+  background-image: url(../images/portfolio.png);
+  background-color: #FFF;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
