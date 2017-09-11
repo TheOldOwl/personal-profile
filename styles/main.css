@@ -87,7 +87,7 @@ body {
   background-repeat: no-repeat; 
   background-color: #000;
   background-position: center;
-  border-top: 2px solid #FFF;
+  border-top: 0.5px solid #FFF;
   width: 30%;
   height: 25vh;
   position: relative;
@@ -105,22 +105,38 @@ body {
 
 .fourth-container {
   display: block;
-  background-image: url('https://goo.gl/P235uQ');
   background-size: cover;
   width: 15%;
   height: 25vh;
   position: relative;
   left: 70%;
   bottom: 100vh;
+  text-decoration: none;
+  border-top: 0.5px solid #FFF;
+  border-right: 0.5px solid #FFF;
+}
+
+.wprogress {
+  background-color: #000;
+  text-align: center;
+  color: #FFF;
+  line-height: 25vh;
+  font-family: Helvetica, sans-serif;
 }
 
 .fifth-container {
   display: block;
-  background-image: url('https://goo.gl/P235uQ');
   background-size: cover;
   width: 15%;
   height: 25vh;
   position: relative;
   left: 85%;
   bottom: 125vh;
+  text-decoration: none;
+  border-top: 0.5px solid #FFF;
+}
+
+.wprogress:hover {
+  background-color: #FFF;
+  color: #000;
 }
