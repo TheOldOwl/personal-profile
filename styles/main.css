@@ -62,7 +62,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
-  background-image: url(../images/mono-cv.png);
+  background-image: url(../images/cv-greyscale.svg);
   width: 30%;
   height: 50vh;
   position: relative;
@@ -71,7 +71,7 @@ body {
 }
 
 .second-container:hover {
-  background-image: url(../images/color-cv.png);
+  background-image: url(../images/cv-color.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
