@@ -62,7 +62,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
+<<<<<<< HEAD
   background-image: url(../images/bw-cv.png);
+=======
+  background-image: url(../images/cv-greyscale.svg);
+>>>>>>> 804feb021337564494f49bf8cf51f330b713eb38
   width: 30%;
   height: 50vh;
   position: relative;
@@ -71,7 +75,11 @@ body {
 }
 
 .second-container:hover {
+<<<<<<< HEAD
   background-image: url(../images/clr-cv.png);
+=======
+  background-image: url(../images/cv-color.svg);
+>>>>>>> 804feb021337564494f49bf8cf51f330b713eb38
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
