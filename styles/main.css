@@ -63,17 +63,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/cv-white.png);
-  background-color: #000;
+  background-color: #262626;
   width: 30%;
-  height: 50vh;
+  height: 40vh;
   position: relative;
   left: 70%;
   bottom: 100vh;
 }
 
 .second-container:hover {
-  background-image: url(../images/cv.png);
-  background-color: #FFF;
+  background-image: url(../images/cv-black.png);
+  background-color: #E9E9E9;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -82,22 +82,22 @@ body {
 .third-container {
   display: block;
   background-image: url(../images/portfolio-white.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; 
-  background-color: #000;
+  background-color: #262626;
   background-position: center;
   border-top: 0.5px solid #232b2b;
   width: 30%;
-  height: 25vh;
+  height: 35vh;
   position: relative;
   left: 70%;
   bottom: 100vh;
 }
 
 .third-container:hover {
-  background-image: url(../images/portfolio.png);
+  background-image: url(../images/portfolio-black.png);
   background-color: #E9E9E9;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -116,7 +116,7 @@ body {
 }
 
 .wprogress {
-  background-color: #000;
+  background-color: #262626;
   text-align: center;
   color: #FFF;
   line-height: 25vh;
