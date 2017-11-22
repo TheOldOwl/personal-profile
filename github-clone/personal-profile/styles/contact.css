@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D8D8;
+}
+
+.list {
+    background-color: #232b2b;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+#logo {
+    color: #C64444;
+    padding: 0 2em;
+}
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    margin: 0 0.2em;
+}
+
+.btn > a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 12em;
+    padding: 1em 2em;
+}
+
+.contact-container {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.tabs {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 0.8em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#submit-btn {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+textarea {
+    border-color: #c1c1c1;
+    box-shadow: 1px 1px 0 1px #9E9E9E inset;
+}
